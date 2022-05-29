@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Segoe UI';
     margin: 0;
 }
@@ -15,7 +15,7 @@ div.header > img {
     margin-right: 10px;
 }
 
-.notice{
+.notice {
     margin:15px;
     color:red;
     font-family:'Museo Sans-700';
@@ -35,6 +35,6 @@ button {
     margin-left: 0px;
 }
 
-.other{
+.other {
     margin:15px;
 }
