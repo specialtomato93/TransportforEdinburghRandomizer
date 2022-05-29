@@ -1,28 +1,28 @@
-body{
+@import url(//db.onlinewebfonts.com/c/b1de76f2d448dcdf44d092114d6ba04a?family=Museo+Sans+700);
+
+body {
     font-family: 'Segoe UI';
     margin: 0;
 }
+
 div.header {
-    font-family:'Segoe UI';
     display: flex;
     align-items: center;
-    display: flex;
-    color:white;
-    background-color:rgb(116, 34, 18);
+    color: white;
+    background-color: rgb(116, 34, 18);
+    font-family: 'Museo Sans 700';
 }
 
 div.header > img {
     margin-right: 10px;
 }
 
-.notice{
-    margin:15px;
-    color:red;
-    font-family:'Museo Sans-700';
+.notice {
+    margin: 15px;
+    color: red;
 }
 
 button {
-
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     color: inherit;
@@ -35,6 +35,6 @@ button {
     margin-left: 0px;
 }
 
-.other{
-    margin:15px;
+.other {
+    margin: 15px;
 }

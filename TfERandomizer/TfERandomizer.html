@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="styles.css">
+
 <head>
   <title>TfE Randomizer</title>
 </head>
 
 <body>
-<div class="header">
-<img src="TfE.jpg" height="64" width="64px"> 
- <h2>Transport for Edinburgh Randomizer</h2>
-</div>
-
-<div class="other">
-<p>Simply Press the button below to generate a random Lothian Buses route and destination.
-All routes listed here are included in Young Scot Free Bus Travel and run through the city centre. 
-</p>
-</div>
-
-
-
-
-
-  
-
-<div class="other">
-  <h3><p id="Route">--</p></h3>
-  <h3><p id="Dest">--------------</p></h3>
- 
-  <button onclick="goPython()">Go</button>
-</div>
-
-<footer>
-  <div class="other">
-  2022 specialtomato93 and ThatOtherAndrew.
-  View source code <a href="https://github.com/specialtomato93/microsoft-store-code-generator">here.</a>
+  <div class="header">
+    <img src="TfE.jpg" height="64" width="64px">
+    <h2>Transport for Edinburgh Randomizer</h2>
   </div>
-</footer>
+
+  <div class="other">
+    <p>Simply Press the button below to generate a random Lothian Buses route and destination.
+      All routes listed here are included in Young Scot Free Bus Travel and run through the city centre.
+    </p>
+  </div>
+
+
+
+  <div class="other">
+    <h3>
+      <p id="Route">--</p>
+    </h3>
+    <h3>
+      <p id="Dest">--------------</p>
+    </h3>
+
+    <script src="randomiser.js"></script>
+    <button onclick="showRandomRoute()">Go</button>
+  </div>
+
+  <footer>
+    <div class="other">
+      2022 specialtomato93 and ThatOtherAndrew.
+      View source code <a href="https://github.com/specialtomato93/microsoft-store-code-generator">here.</a>
+    </div>
+  </footer>
 </body>
