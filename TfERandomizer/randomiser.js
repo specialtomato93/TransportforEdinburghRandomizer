@@ -52,5 +52,6 @@ function showRandomRoute() {
     const route = getRandomItem(routeKeys);
     const destination = getRandomItem(routes[route]);
 
-    console.log(route, destination);
+    document.getElementById("Route").innerText = route;
+    document.getElementById("Dest").innerText = destination;
 }
