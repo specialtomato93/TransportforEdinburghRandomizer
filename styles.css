@@ -1,4 +1,8 @@
-@import url(https://db.onlinewebfonts.com/c/b1de76f2d448dcdf44d092114d6ba04a?family=Museo+Sans+700);
+@font-face {
+  font-family: 'Museo Sans 700';
+  src: url("/fonts/museo-sans-700.woff2") format("woff2"),
+       url("/fonts/museo-sans-700.woff") format("woff");
+}
 
 body {
     font-family: 'Museo Sans 700';
