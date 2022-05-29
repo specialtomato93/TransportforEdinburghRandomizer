@@ -66,9 +66,6 @@ if RS==4:
 if RS==5:
     dest=(random.choice(Five))
 
-if RS==6:
-    dest=(random.choice(Six))
-
 if RS==7:
     dest=(random.choice(Seven))
 
